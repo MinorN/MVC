@@ -1,0 +1,39 @@
+#app1 {
+    border: 1px solid red; 
+}
+
+#app2 {
+    border : 1px solid red;
+}
+
+#app2 .tab-bar{
+    border: 1px solid black;
+    display: flex;
+}
+
+#app2 .tab-bar>li{
+    width: 50%;
+}
+
+#app2 .tab-content{
+
+}
+
+#app2 .tab-content>li{
+    display: none;
+}
+
+body{
+    overflow: hidden;
+}
+
+body >.page{
+    display: flex;
+}
+
+body >.page > section{
+    width: 50vw;
+    height: 50vh;
+    flex-wrap: wrap;
+}
+/*# sourceMappingURL=index.a3bca2a6.css.map */
